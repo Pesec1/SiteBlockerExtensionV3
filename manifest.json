@@ -1,0 +1,14 @@
+{
+    "name": "BlockWithPositiveVibe",
+    "description": "Build an Extension!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "Popup.html"
+    },
+    "permissions": ["storage", "tabs", "scripting"],
+    "host_permissions": ["<all_urls>"]
+}
